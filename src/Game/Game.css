@@ -1,0 +1,24 @@
+.Wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.Board {
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    background-image:    linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px);
+}
+
+.Cell {
+    background: #ccc;
+    position: absolute;
+}
+.Controls {
+    margin-top: 1rem;
+}
+
+.button {
+    margin-left: 1rem;
+    cursor: pointer;
+}
